@@ -1,5 +1,3 @@
----
-
 # PSST: Parallel Scalable Simulations of Biological Neural Networks
 
 ### Implementation & Exercises (Days 1-3)
@@ -58,9 +56,9 @@ The core objective of this work was to transition from standard procedural progr
 
 
 | Lorenz Attractor (Day 2) |
-| <img width="1200" height="500" alt="lorentz_euler_rk4_tf" src="https://github.com/user-attachments/assets/7612eaaf-81ec-4b87-a1d6-a820697d1ec7" />
-| --- |
- Neuron Spike Train (Day 3) |
+| <img width="1200" height="500" alt="lorentz_euler_rk4_tf" src="https://github.com/user-attachments/assets/7612eaaf-81ec-4b87-a1d6-a820697d1ec7" /> |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Neuron Spike Train (Day 3)                                                                                                                         |
  <img width="1200" height="1700" alt="image" src="https://github.com/user-attachments/assets/056e19e9-cafc-4e66-84ac-8bf7f141d54e" />
  |
 
