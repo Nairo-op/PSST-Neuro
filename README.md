@@ -6,7 +6,7 @@ This repository documents my implementation of the first three modules of the **
 
 The objective of this project is to transition from **loop-based Python simulations** to **vectorized, graph-based computation** using TensorFlow, with a focus on **numerical methods and biophysical neural modeling** relevant to computational neuroscience.
 
-Rather than treating neural networks as abstract ML objects, this work approaches them as **dynamical systems governed by differential equations**, grounded in physics and biology.
+Rather than treating neural networks as abstract ML objects, this work enabled me to to approach them as **dynamical systems governed by differential equations**, grounded in physics and biology.
 
 ---
 
