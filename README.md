@@ -20,13 +20,13 @@ Before modeling neurons, I focused on the numerical foundations.
 * Simulated simple 1D ODEs (exponential growth/decay)
 * Studied **error accumulation**, timestep sensitivity, and numerical stability
 
-I was able to build intuition for why simple discretization fails in long-term dynamical simulations.
+**Goal:** Build intuition for why naïve discretization fails in long-term dynamical simulations.
 
 ---
 
 ### Day 2 — Differential Equations in TensorFlow
 
-This stage helped me introduce **graph-based computation** and parallelism.
+This stage introduced **graph-based computation** and parallelism.
 
 * Reimplemented the Euler integrator using **TensorFlow computational graphs**
 * Implemented **Runge–Kutta 4 (RK4)** for higher-order accuracy
@@ -34,7 +34,7 @@ This stage helped me introduce **graph-based computation** and parallelism.
 
 #### Lorenz Attractor (Chaotic System)
 
-To test the integrators further, I modeled the **Lorenz system**, a classic chaotic dynamical system defined by coupled non-linear ODEs.
+To stress-test the integrators, I modeled the **Lorenz system**, a classic chaotic dynamical system defined by coupled non-linear ODEs.
 
 * Demonstrates **sensitivity to initial conditions**
 * Highlights the importance of integrator choice
@@ -77,17 +77,17 @@ Numerical tools were then applied to biological systems.
 * TensorFlow enables scalable, parallel simulation of dynamical systems
 * Conductance-based neuron models naturally emerge from physical principles
 
-This project served as a foundation for extending simulations from **single neurons** to **large-scale spiking neural networks**.
+This project serves as a foundation for extending simulations from **single neurons** to **large-scale spiking neural networks**.
 
 ---
 
-## My Computational Setup
+## Computational Setup
 
-All simulations were executed **locally** on my personal laptop using **TensorFlow with NVIDIA CUDA support**, which helped enabling GPU-accelerated computation.
+All simulations were executed **locally** on a personal laptop using **TensorFlow with NVIDIA CUDA support**, enabling GPU-accelerated computation.
 
 * **GPU:** NVIDIA RTX 3050 (Laptop)
 * **Acceleration:** CUDA-enabled TensorFlow
-* **Execution:** Identical code can run on CPU or GPU without modification
+* **Execution:** Identical code runs on CPU or GPU without modification
 
 This validates the portability and scalability of the TensorFlow-based simulation approach.
 
