@@ -20,7 +20,7 @@ Before modeling neurons, I focused on the numerical foundations.
 * Simulated simple 1D ODEs (exponential growth/decay)
 * Studied **error accumulation**, timestep sensitivity, and numerical stability
 
-**Goal:** Build intuition for why naïve discretization fails in long-term dynamical simulations.
+I was able to build intuition for why simple discretization fails in long-term dynamical simulations.
 
 ---
 
@@ -34,7 +34,7 @@ This stage introduced **graph-based computation** and parallelism.
 
 #### Lorenz Attractor (Chaotic System)
 
-To stress-test the integrators, I modeled the **Lorenz system**, a classic chaotic dynamical system defined by coupled non-linear ODEs.
+To test the integrators further, I modeled the **Lorenz system**.
 
 * Demonstrates **sensitivity to initial conditions**
 * Highlights the importance of integrator choice
@@ -77,7 +77,7 @@ Numerical tools were then applied to biological systems.
 * TensorFlow enables scalable, parallel simulation of dynamical systems
 * Conductance-based neuron models naturally emerge from physical principles
 
-This project serves as a foundation for extending simulations from **single neurons** to **large-scale spiking neural networks**.
+This project served as a foundation for extending simulations from **single neurons** to **large-scale spiking neural networks**.
 
 ---
 
@@ -87,7 +87,7 @@ All simulations were executed **locally** on a personal laptop using **TensorFlo
 
 * **GPU:** NVIDIA RTX 3050 (Laptop)
 * **Acceleration:** CUDA-enabled TensorFlow
-* **Execution:** Identical code runs on CPU or GPU without modification
+* **Execution:** Identical code can run on CPU or GPU without modification
 
 This validates the portability and scalability of the TensorFlow-based simulation approach.
 
