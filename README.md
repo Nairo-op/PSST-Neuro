@@ -81,7 +81,7 @@ This project served as a foundation for extending simulations from **single neur
 
 ---
 
-## Computational Setup
+## My Computational Setup
 
 All simulations were executed **locally** on my personal laptop using **TensorFlow with NVIDIA CUDA support**, which helped enabling GPU-accelerated computation.
 
