@@ -101,7 +101,15 @@ This validates the portability and scalability of the TensorFlow-based simulatio
 * **Visualization:** Matplotlib
 
 ---
+## View the code in Colab
 
+| Day       | Topic                                                   | Link                                                                                                                                                                                        |
+| :-------- | :------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Day 1** | Mathematical Foundations: Time, Stability, and Error    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nairo-op/PSST-Neuro/blob/main/Day_1_Euler_RK4/euler_rk4_python.ipynb) |
+| **Day 2** | Differential Equations in TensorFlow & Lorenz Attractor | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nairo-op/PSST-Neuro/blob/main/Day_2_tf_Euler_RK4/lorentz_rk4_tf.png)  |
+| **Day 3** | Cells in Silicon: Biophysical Neuron Modeling           | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nairo-op/PSST-Neuro/blob/main/Day_3_HH_Model/hh.ipynb)                |
+
+---
 ## References & Credits
 
 This work is based on the **PSST tutorial series** by the
@@ -114,3 +122,5 @@ This work is based on the **PSST tutorial series** by the
   [https://arxiv.org/abs/1906.03958](https://arxiv.org/abs/1906.03958)
 
 ---
+
+
